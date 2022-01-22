@@ -7,11 +7,11 @@ int main()
     int laptop, mobile_phone, book, total, Final, d_l, d_b, d_m, total_d;
 
     cout << "Enter the Price of book ";
-    cin >> book;
-    cout << "\nEnter the Price of mobile_phone ";
-    cin >> mobile_phone;
+    cin>>book;
+    cout <<"\nEnter the Price of mobile_phone ";
+    cin>>mobile_phone;
     cout << "\nEnter the Price of laptop ";
-    cin >> laptop;
+    cin >>laptop;
     total = laptop + book + mobile_phone;
 
     d_b = book * 10 / 100;
