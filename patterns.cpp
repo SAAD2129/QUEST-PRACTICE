@@ -5,8 +5,8 @@ using namespace std;
 int main()
 {
     int i = 1, j, rows;
-    cout << "Enter the number of rows ";
-    cin >> rows;
+    // cout << "Enter the number of rows ";
+    // cin >> rows;
     // *
     // * *
     // * * *
@@ -741,6 +741,164 @@ int main()
     //     cout << "\n";
 
     // } while (i <= rows);
+    // for (int i = 1; i <= rows; i++)
+    // {
+    //     for (int j = 1; j <= rows - i; j++)
+    //     {
+    //         cout << " ";
+    //     }
+    //     for (int k = 1; k <= i; k++)
+    //     {
+    //         cout << k << " ";
+    //     }
+    //     cout << "\n";
+    // }
+
+    // int num;
+    // for (int i = 1; i <= rows; i++)
+    // {
+    //     for (int j = 1; j <= rows - i; j++)
+    //     {
+    //         cout << "  ";
+    //     }
+    //     num = i;
+    //     for (int k = 1; k <= i; k++)
+    //     {
+
+    //         cout << num << " ";
+    //         num--;
+    //     }
+    //     for (int l = 2; l <= i; l++)
+    //     {
+    //         cout << l << " ";
+    //     }
+
+    //     cout << "\n";
+    // }
+    //      *
+    //     ***
+    //    *****
+    //   ******* this pattern using for loop
+    //   *******
+    //    *****
+    //     ***
+    //      *
+
+    //     int num;
+    // for (int i = 0; i <= rows; i++)
+    // {
+    //     for (int j = 1; j <= rows - i; j++)
+    //     {
+    //         cout << "  ";
+    //     }
+    //     num = i;
+    //     for (int k = 1; k <= 2 * i + 1; k++)
+    //     {
+
+    //         cout << "* ";
+    //         // num--;
+    //     }
+    //     // for (int l = 2; l <= i; l++)
+    //     // {
+    //     //     cout << "* ";
+    //     // }
+
+    //     cout << "\n";
+    // }
+    // for (int i = rows; i >= 0; i--)
+    // {
+    //     for (int j = 1; j <= rows - i; j++)
+    //     {
+    //         cout << "  ";
+    //     }
+    //     num = i;
+    //     for (int k = 1; k <= 2 * i + 1; k++)
+    //     {
+
+    //         cout << "* ";
+    //         // num--;
+    //     }
+    //     // for (int l = 2; l <= i; l++)
+    //     // {
+    //     //     cout << "* ";
+    //     // }
+
+    //     cout << "\n";
+    // }
+
+    //      *     *     *     *
+    //    *  *  *  *  *  *  *  *
+    //  *     *     *     *     * zigzag pattern upto nth number of columns
+    cout << "Enter the number of columns in the multiples of 3 ";
+    int columns;
+    cin >> columns;
+    // for (int i = 1; i <= 3; i++)
+    // {
+    //     for (int j = 1; j <= columns*3; j++)
+    //     {
+    //         if (((i + j) % 4 == 0) || (i == 2 && j % 4 == 0))
+    //         {
+    //             cout << "* ";
+    //         }
+    //         else
+    //         {
+    //             cout << "  ";
+    //         }
+    //     }
+    //     cout << "\n";
+    // }
+    // for (int i = 3; i >= 1; i--)
+    // {
+    //     for (int j = 1; j <= columns*3; j++)
+    //     {
+    //         if (((i + j) % 4 == 0) || (i == 2 && j % 4 == 0))
+    //         {
+    //             cout << "* ";
+    //         }
+    //         else
+    //         {
+    //             cout << "  ";
+    //         }
+    //     }
+    //     cout << "\n";
+    // }
+    // WHILE LOOP
+    // while (i <= 3)
+    // {
+    //     j = 1;
+    //     while (j <= columns * 3)
+    //     {
+    //         if ((i + j) % 4 == 0 || (i == 2 && j % 4 == 0))
+    //         {
+    //             cout << "*";
+    //         }
+    //         else
+    //         {
+    //             cout << " ";
+    //         }
+    //         j++;
+    //     }
+    //     i++;
+    //     cout<<"\n";
+    // }
+    do
+    {
+        j = 1;
+        do
+        {
+            if ((i + j) % 4 == 0 || (i == 2 && j % 4 == 0))
+            {
+                cout << "*";
+            }
+            else
+            {
+                cout << " ";
+            }
+            j++;
+        } while (j <= columns * 3);
+        cout << "\n";
+        i++;
+    } while (i <= 3);
 
     return 0;
 }
