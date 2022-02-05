@@ -1217,67 +1217,76 @@ int main()
     //     }
     //     cout << "\n";
     // }
-
-    for (int i = 1; i <= rows; i++)
-    {
-        for (int j = 1; j <= i; j++)
-        {
-            if (j == 1 || j == i)
-            {
-                cout << "*";
-            }
-            else
-            {
-                cout << " ";
-            }
-        }
-        for (int k = 1; k <= 2 * rows - 2 * i; k++)
-        {
-            cout << " ";
-        }
-        for (int l = 1; l <= i; l++)
-        {
-            if (l == 1 || l == i)
-            {
-                cout << "*";
-            }
-            else
-            {
-                cout << " ";
-            }
-        }
-        cout << "\n";
-    }
-    for (int i = rows; i >= 1; i--)
-    {
-        for (int j = 1; j <= i; j++)
-        {
-            if (j == 1 || j == i)
-            {
-                cout << "*";
-            }
-            else
-            {
-                cout << " ";
-            }
-        }
-        for (int k = 1; k <= 2 * rows - 2 * i; k++)
-        {
-            cout << " ";
-        }
-        for (int l = 1; l <= i; l++)
-        {
-            if (l == 1 || l == i)
-            {
-                cout << "*";
-            }
-            else
-            {
-                cout << " ";
-            }
-        }
-        cout << "\n";
-    }
+    // *        *
+    // **      **
+    // * *    * *
+    // *  *  *  *this using all loops 
+    // *   **   *
+    // *   **   *
+    // *  *  *  *
+    // * *    * *
+    // **      **
+    // *        *
+    // for (int i = 1; i <= rows; i++)
+    // {
+    //     for (int j = 1; j <= i; j++)
+    //     {
+    //         if (j == 1 || j == i)
+    //         {
+    //             cout << "*";
+    //         }
+    //         else
+    //         {
+    //             cout << " ";
+    //         }
+    //     }
+    //     for (int k = 1; k <= 2 * rows - 2 * i; k++)
+    //     {
+    //         cout << " ";
+    //     }
+    //     for (int l = 1; l <= i; l++)
+    //     {
+    //         if (l == 1 || l == i)
+    //         {
+    //             cout << "*";
+    //         }
+    //         else
+    //         {
+    //             cout << " ";
+    //         }
+    //     }
+    //     cout << "\n";
+    // }
+    // for (int i = rows; i >= 1; i--)
+    // {
+    //     for (int j = 1; j <= i; j++)
+    //     {
+    //         if (j == 1 || j == i)
+    //         {
+    //             cout << "*";
+    //         }
+    //         else
+    //         {
+    //             cout << " ";
+    //         }
+    //     }
+    //     for (int k = 1; k <= 2 * rows - 2 * i; k++)
+    //     {
+    //         cout << " ";
+    //     }
+    //     for (int l = 1; l <= i; l++)
+    //     {
+    //         if (l == 1 || l == i)
+    //         {
+    //             cout << "*";
+    //         }
+    //         else
+    //         {
+    //             cout << " ";
+    //         }
+    //     }
+    //     cout << "\n";
+    // }
 
     return 0;
 }
