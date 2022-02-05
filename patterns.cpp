@@ -5,8 +5,8 @@ using namespace std;
 int main()
 {
     int i = 1, j, rows;
-    // cout << "Enter the number of rows ";
-    // cin >> rows;
+    cout << "Enter the number of rows ";
+    cin >> rows;
     // *
     // * *
     // * * *
@@ -20,6 +20,7 @@ int main()
     //     }
     //     cout << "\n";
     // }
+    // WHILE LOOP
     // while (i <= rows)
     // {
     //     j = 1;
@@ -31,6 +32,7 @@ int main()
     //     cout << "\n";
     //     i++;
     // }
+    // DO WHILE LOOP
     // do
     // {
     //     j = 1;
@@ -48,7 +50,7 @@ int main()
     // *****
     // ***** this pattern using all loops
     // *****
-
+    // FOR LOOP
     // for (int i = 1; i <= rows; i++)
     // {
     //     for (int j = 1; j <= rows; j++)
@@ -57,7 +59,7 @@ int main()
     //     }
     //     cout << "\n";
     // }
-
+    // WHILE LOOP
     // while (i <= rows)
     // {
     //     j = 1;
@@ -69,7 +71,7 @@ int main()
     //     cout << "\n";
     //     i++;
     // }
-
+    // DO WHILE LOOP
     // do
     // {
     //     j = 1;
@@ -87,6 +89,7 @@ int main()
     // *   * this pattern using all loops
     // *   *
     // *****
+    // FOR LOOP
     // for (int i = 1; i <= rows; i++)
     // {
     //     for (int j = 1; j <= rows; j++)
@@ -102,7 +105,7 @@ int main()
     //     }
     //     cout << "\n";
     // }
-
+    // WHILE LOOP
     // while (i <= rows)
     // {
     //     j = 1;
@@ -121,7 +124,7 @@ int main()
     //     cout << "\n";
     //     i++;
     // }
-
+    // DO WHILE LOOP
     // do
     // {
     //     j = 1;
@@ -155,6 +158,7 @@ int main()
     //     }
     //     cout << "\n";
     // }
+    // WHILE LOOP
     // while (i <= rows)
     // {
     //     j = 1;
@@ -166,6 +170,7 @@ int main()
     //     cout << "\n";
     //     i++;
     // }
+    // DO WHILE LOOP
     // do
     // {
     //     j = 1;
@@ -178,58 +183,21 @@ int main()
     //     i++;
     // } while (i <= rows);
 
-    //     *
-    //    **this pattern using all loops
-    //   ***
-    //  ****
-
-    // for (int i = 1; i <= rows; i++)
-    // {
-    //     for (int j = 1; j <= i; j++)
-    //     {
-    //         cout << j<<" ";
-    //     }
-    //     cout << "\n";
-    // }
-
-    // while (i <= rows)
-    // {
-    //     j = 1;
-    //     while (j <= i)
-    //     {
-    //         cout << j<<" ";
-    //         j++;
-    //     }
-    //     cout << "\n";
-    //     i++;
-    // }
-
-    // do
-    // {
-    //     j = 1;
-    //     do
-    //     {
-    //         cout << j<<" ";
-    //         j++;
-    //     } while (j <= i);
-    //     cout << "\n";
-    //     i++;
-    // } while (i <= rows);
-
     // 1
-    // 12
-    // 123
-    // 1234 this pattern using all loops
-    // 12345
+    // 1 2
+    // 1 2 3
+    // 1 2 3 4  THIS PATTERN USING ALL LOOPS
+    // 1 2 3 4 5
+
     // for (int i = 1; i <= rows; i++)
     // {
     //     for (int j = 1; j <= i; j++)
     //     {
-    //         cout << j<<" ";
+    //         cout << j << " ";
     //     }
     //     cout << "\n";
     // }
-
+    // WHILE LOOP
     // while (i <= rows)
     // {
     //     j = 1;
@@ -241,7 +209,7 @@ int main()
     //     cout << "\n";
     //     i++;
     // }
-
+    // DO WHILE LOOP
     // do
     // {
     //     j = 1;
@@ -257,8 +225,9 @@ int main()
     // 1 2 3 4 5
     // 1 2 3 4
     // 1 2 3
-    // 1 2
+    // 1 2 THIS USING ALL LOOPS
     // 1
+    // FOR LOOP
     // for (int i = 1; i <= rows; i++)
     // {
     //     for (int j = 1; j <= rows - i + 1; j++)
@@ -267,7 +236,7 @@ int main()
     //     }
     //     cout << "\n";
     // }
-
+    // WHILE LOOP
     // while (i <= rows)
     // {
     //     j = 1;
@@ -279,7 +248,7 @@ int main()
     //     cout << "\n";
     //     i++;
     // }
-
+    // DO WHILE LOOP
     // do
     // {
     //     j = 1;
@@ -293,10 +262,11 @@ int main()
     // } while (i <= rows);
 
     // 1
-    // 22
-    // 333
-    // 4444
-    // 55555 this pattern using all loops
+    // 2 2
+    // 3 3 3
+    // 4 4 4 4
+    // 5 5 5 5 5 this pattern using all loops
+    // FOR LOOP
     // for (int i = 1; i <= rows; i++)
     // {
     //     for (int j = 1; j <= i; j++)
@@ -305,7 +275,7 @@ int main()
     //     }
     //     cout << "\n";
     // }
-
+    // WHILE LOOP
     // while (i<=rows)
     // {j=1;
     //     while(j<=i)
@@ -315,15 +285,18 @@ int main()
     //     }
     //     i++;cout<<"\n";
     // }
+    // DO WHILE LOOPF
     // do
-    // {j=1;
+    // {
+    //     j = 1;
     //     do
     //     {
-    //         cout<<i<<" ";
+    //         cout << i << " ";
     //         j++;
-    //     } while (j<=i);
-    //     i++;cout<<"\n";
-    // } while (i<=rows);
+    //     } while (j <= i);
+    //     i++;
+    //     cout << "\n";
+    // } while (i <= rows);
 
     // 1 1 1 1 1
     // 2 2 2 2
@@ -338,6 +311,7 @@ int main()
     //     }
     //     cout << "\n";
     // }
+    // WHILE LOOP
     // while (i <= rows)
     // {
     //     j = 1;
@@ -349,6 +323,7 @@ int main()
     //     cout << "\n";
     //     i++;
     // }
+    // DO WHILE LOOP
     // do
     // {
     //     j = 1;
@@ -366,7 +341,7 @@ int main()
     // 4  5  6
     // 7  8  9  10 this using all loops exist
     // 11 12 13 14
-
+    // FOR LOOP
     // int num = 0;
     // for (int i = 0; i <= rows; i++)
     // {
@@ -378,7 +353,7 @@ int main()
     //     }
     //     cout << "\n";
     // }
-
+    // WHILE LOOP
     // while (i <= rows)
     // {
     //     j = 1;
@@ -391,7 +366,7 @@ int main()
     //     cout << "\n";
     //     i++;
     // }
-
+    // DO WHILE LOOP
     // do
     // {
     //     j = 1;
@@ -404,11 +379,13 @@ int main()
     //     cout << "\n";
     //     i++;
     // } while (i <= rows);
+
     // 1
     // 0 1
     // 1 0 1
     // 0 1 0 1 this using all loops
     // 1 0 1 0 1
+    // FOR LOOP
     // for (int i = 0; i < rows; i++)
     // {
     //     for (int j = 0; j <= i; j++)
@@ -424,6 +401,7 @@ int main()
     //     }
     //     cout << "\n";
     // }
+    // WHILE LOOP
     // while (i <= rows)
     // {
     //     j = 1;
@@ -442,7 +420,7 @@ int main()
     //     cout << "\n";
     //     i++;
     // }
-
+    // DO WHILE LOOP
     // do
     // {
     //     j = 1;
@@ -470,9 +448,10 @@ int main()
     //   *****
     //    ***
     //     *
-    // for (int i = 0; i <= rows; i++)
+    // FOR LOOP
+    // for (int i = 1; i <= rows; i++)
     // {
-    //     for (int j = 0; j <= rows; j++)
+    //     for (int j = 1; j <= rows; j++)
     //     {
     //         if (j <= rows - i)
     //         {
@@ -483,15 +462,16 @@ int main()
     //             cout << "*";
     //         }
     //     }
-    //     for (int k = 0; k <= i; k++)
+    //     for (int k = 2; k <= i; k++)
     //     {
     //         cout << "*";
     //     }
     //     cout << "\n";
     // }
-    // for (int i = rows; i >= 0; i--)
+
+    // for (int i = rows; i >= 1; i--)
     // {
-    //     for (int j = 0; j <= rows; j++)
+    //     for (int j = 1; j <= rows; j++)
     //     {
     //         if (j <= rows - i)
     //         {
@@ -502,12 +482,13 @@ int main()
     //             cout << "*";
     //         }
     //     }
-    //     for (int k = 0; k <= i; k++)
+    //     for (int k = 2; k <= i; k++)
     //     {
     //         cout << "*";
     //     }
     //     cout << "\n";
     // }
+    // WHILE LOOP
     // i = 0;
     // while (i <= rows)
     // {
@@ -558,7 +539,7 @@ int main()
     //     cout << "\n";
     //     i--;
     // }
-
+    // DO WHILE LOOP
     // i = 0;
     // do
     // {
@@ -611,6 +592,7 @@ int main()
     //     i--;
     //     cout << "\n";
     // } while (i >= 0);
+
     //     *****
     //    *****
     //   *****
@@ -618,15 +600,18 @@ int main()
     // *****
     // for (int i = 0; i <= rows; i++)
     // {
-    //     for (int j = 0; j <= rows - i; j++)
+    //     for (int j = 0; j <= rows - i + rows; j++)
     //     {
-    //         cout << " ";
+    //         if (j <= rows - i)
+    //         {
+    //             cout << " ";
+    //         }
+    //         else
+    //         {
+    //             cout << "*";
+    //         }
     //     }
-    //     for (int j = 0; j <= rows; j++)
-    //     {
-    //         cout << "*";
-    //     }
-    //     cout<<"\n";
+    //     cout << "\n";
     // }
 
     // while (i <= rows)
@@ -741,6 +726,13 @@ int main()
     //     cout << "\n";
 
     // } while (i <= rows);
+
+    //          1
+    //         1 2
+    //        1 2 3   THIS PATTERN USING ALL LOOPS
+    //       1 2 3 4
+    //      1 2 3 4 5
+    // FOR LOOP
     // for (int i = 1; i <= rows; i++)
     // {
     //     for (int j = 1; j <= rows - i; j++)
@@ -754,6 +746,48 @@ int main()
     //     cout << "\n";
     // }
 
+    // DO WHILE LOOP
+
+    // do
+    // {
+    //     j = 0;
+    //     do
+    //     {
+    //         cout << " ";
+    //         j++;
+    //     } while (j <= rows - i);
+    //     int k = 1;
+    //     do
+    //     {
+    //         cout << k << " ";
+    //         k++;
+    //     } while (k <= i);
+    //     i++;
+    //     cout << "\n";
+    // } while (i <= rows);
+    // WHILE LOOP
+    // while (i <= rows)
+    // {
+    //     j = 1;
+    //     while (j <= rows - i)
+    //     {
+    //         cout << " ";
+    //         j++;
+    //     }
+    //     int k = 1;
+    //     while (k <= i)
+    //     {
+    //         cout << k << " ";
+    //         k++;
+    //     }
+    //     cout << "\n";
+    //     i++;
+    // }
+    //         1
+    //       2 1 2
+    //     3 2 1 2 3
+    //   4 3 2 1 2 3 4
+    // 5 4 3 2 1 2 3 4 5 this using all loops
     // int num;
     // for (int i = 1; i <= rows; i++)
     // {
@@ -775,6 +809,61 @@ int main()
 
     //     cout << "\n";
     // }
+    // DO LOOP
+    // do
+    // {
+    //     j = 0;
+    //     do
+    //     {
+    //         cout << " ";
+    //         j++;
+    //     } while (j <= rows - i);
+    //     int num = i;
+    //     int k = 1;
+    //     do
+    //     {
+    //         cout << num;
+    //         num--;
+    //         k++;
+    //     } while (k <= i);
+    //     int l = 2;
+    //     do
+    //     {
+    //         cout << l;
+    //         l++;
+    //     } while (l <= i);
+
+    //     i++;
+    //     cout << "\n";
+    // } while (i <= rows);
+    // WHILE LOOP
+    // while (i <= rows)
+    // {
+    //     j = 1;
+    //     while (j <= rows - i)
+    //     {
+    //         cout << "  ";
+    //         j++;
+    //     }
+    //     int num = i;
+    //     j = 1;
+    //     while (j <= i)
+    //     {
+    //         cout << num << " ";
+    //         num--;
+    //         j++;
+    //     }
+    //     j = 2;
+    //     while (j <= i)
+    //     {
+    //         cout << j << " ";
+    //         j++;
+    //     }
+
+    //     cout << "\n";
+    //     i++;
+    // }
+
     //      *
     //     ***
     //    *****
@@ -784,7 +873,8 @@ int main()
     //     ***
     //      *
 
-    //     int num;
+    // FOR LOOP
+    // int num;
     // for (int i = 0; i <= rows; i++)
     // {
     //     for (int j = 1; j <= rows - i; j++)
@@ -796,12 +886,12 @@ int main()
     //     {
 
     //         cout << "* ";
-    //         // num--;
+    // num--;
     //     }
-    //     // for (int l = 2; l <= i; l++)
-    //     // {
-    //     //     cout << "* ";
-    //     // }
+    // for (int l = 2; l <= i; l++)
+    // {
+    //     cout << "* ";
+    // }
 
     //     cout << "\n";
     // }
@@ -829,9 +919,10 @@ int main()
     //      *     *     *     *
     //    *  *  *  *  *  *  *  *
     //  *     *     *     *     * zigzag pattern upto nth number of columns
-    cout << "Enter the number of columns in the multiples of 3 ";
-    int columns;
-    cin >> columns;
+    // cout << "Enter the number of columns in the multiples of 3 ";
+    // int columns;
+    // cin >> columns;
+    // FOR LOOP
     // for (int i = 1; i <= 3; i++)
     // {
     //     for (int j = 1; j <= columns*3; j++)
@@ -847,21 +938,7 @@ int main()
     //     }
     //     cout << "\n";
     // }
-    // for (int i = 3; i >= 1; i--)
-    // {
-    //     for (int j = 1; j <= columns*3; j++)
-    //     {
-    //         if (((i + j) % 4 == 0) || (i == 2 && j % 4 == 0))
-    //         {
-    //             cout << "* ";
-    //         }
-    //         else
-    //         {
-    //             cout << "  ";
-    //         }
-    //     }
-    //     cout << "\n";
-    // }
+
     // WHILE LOOP
     // while (i <= 3)
     // {
@@ -881,12 +958,271 @@ int main()
     //     i++;
     //     cout<<"\n";
     // }
-    do
+    // DO LOOP
+    // do
+    // {
+    //     j = 1;
+    //     do
+    //     {
+    //         if ((i + j) % 4 == 0 || (i == 2 && j % 4 == 0))
+    //         {
+    //             cout << "*";
+    //         }
+    //         else
+    //         {
+    //             cout << " ";
+    //         }
+    //         j++;
+    //     } while (j <= columns * 3);
+    //     cout << "\n";
+    //     i++;
+    // } while (i <= 3);
+
+    //     *
+    //    * *
+    //   *   *
+    //  *     *
+    // *       *
+    // *       * this pattern using all loops
+    //  *     *
+    //   *   *
+    //    * *
+    //     *
+    // FOR LOOP
+    // for (int i = 1; i <= rows; i++)
+    // {
+    //     for (int j = 1; j <= rows; j++)
+    //     {
+    //         if (j == rows - i + 1)
+    //         {
+    //             cout << "*";
+    //         }
+    //         else
+    //         {
+    //             cout << " ";
+    //         }
+    //     }
+    //     for (int k = 2; k <= i; k++)
+    //     {
+    //         if (k == i)
+    //         {
+    //             cout << "*";
+    //         }
+    //         else
+    //         {
+    //             cout << " ";
+    //         }
+    //     }
+    //     cout << "\n";
+    // }
+    // for (int i = rows; i >= 1; i--)
+    // {
+    //     for (int j = 1; j <= rows; j++)
+    //     {
+    //         if (j == rows - i + 1)
+    //         {
+    //             cout << "*";
+    //         }
+    //         else
+    //         {
+    //             cout << " ";
+    //         }
+    //     }
+    //     for (int k = 2; k <= i; k++)
+    //     {
+    //         if (k == i)
+    //         {
+    //             cout << "*";
+    //         }
+    //         else
+    //         {
+    //             cout << " ";
+    //         }
+    //     }
+    //     cout << "\n";
+    // }
+    // DO LOOP
+    // i = 1;
+    // do
+    // {
+    //     int j = 1, k = 2;
+    //     do
+    //     {
+    //         if (j == rows - i + 1)
+    //         {
+    //             cout << "*";
+    //         }
+    //         else
+    //         {
+    //             cout << " ";
+    //         }
+
+    //         j++;
+    //     } while (j <= rows);
+    //     k == 2;
+    //     do
+    //     {
+    //         if (k == i)
+    //         {
+    //             cout << "*";
+    //         }
+    //         else
+    //         {
+    //             cout << " ";
+    //         }
+    //         k++;
+    //     } while (k <= i);
+    //     i++;
+    //     cout << "\n";
+    // } while (i <= rows);
+    // i=rows;
+    // do
+    // {
+    //     int j = 1, k = 2;
+    //     do
+    //     {
+    //         if (j == rows - i + 1)
+    //         {
+    //             cout << "*";
+    //         }
+    //         else
+    //         {
+    //             cout << " ";
+    //         }
+
+    //         j++;
+    //     } while (j <= rows);
+    //     k == 2;
+    //     do
+    //     {
+    //         if (k == i)
+    //         {
+    //             cout << "*";
+    //         }
+    //         else
+    //         {
+    //             cout << " ";
+    //         }
+    //         k++;
+    //     } while (k <= i);
+    //     i--;
+    //     cout << "\n";
+    // } while (i >= 1);
+
+    // WHILE LOOP
+    // while (i <= rows)
+    // {
+    //     j = 1;
+    //     while (j <= rows)
+    //     {
+    //         if (j == rows - i + 1)
+    //         {
+    //             cout << "*";
+    //         }
+    //         else
+    //         {
+    //             cout << " ";
+    //         }
+    //         j++;
+    //     }
+    //     int k = 2;
+    //     while (k <= i)
+    //     {
+    //         if (k == i)
+    //         {
+    //             cout << "*";
+    //         }
+    //         else
+    //         {
+    //             cout << " ";
+    //         }
+    //         k++;
+    //     }
+    //     i++;
+    //     cout << "\n";
+    // }
+    // i = rows;
+    // while (i >= 1)
+    // {
+    //     j = 1;
+    //     while (j <= rows)
+    //     {
+    //         if (j == rows - i + 1)
+    //         {
+    //             cout << "*";
+    //         }
+    //         else
+    //         {
+    //             cout << " ";
+    //         }
+    //         j++;
+    //     }
+    //     int k = 2;
+    //     while (k <= i)
+    //     {
+    //         if (k == i)
+    //         {
+    //             cout << "*";
+    //         }
+    //         else
+    //         {
+    //             cout << " ";
+    //         }
+    //         k++;i
+    //     }
+    //     i--;
+    //     cout << "\n";
+    // }
+    // *        *
+    // **      **
+    // ***    ***
+    // ****  ****
+    // **********
+    // **********
+    // ****  ****
+    // ***    ***
+    // **      **   this using all loops
+    // *        *
+
+    // for (int i = 1; i <= rows; i++)
+    // {
+    //     for (int j = 1; j <= i; j++)
+    //     {
+    //         cout << "*";
+    //     }
+    //     for (int k = 1; k <= 2 * rows - 2 * i; k++)
+    //     {
+    //         cout << " ";
+    //     }
+    //     for (int l = 1; l <= i; l++)
+    //     {
+    //         cout << "*";
+    //     }
+
+    //     cout << "\n";
+    // }
+    // for (int i = rows; i >= 1; i--)
+    // {
+    //     for (int j = 0; j < i; j++)
+    //     {
+    //         cout << "*";
+    //     }
+    //     for (int j = 0; j < 2 * rows - 2 * i; j++)
+    //     {
+    //         cout << " ";
+    //     }
+    //     for (int j = 0; j < i; j++)
+    //     {
+    //         cout << "*";
+    //     }
+    //     cout << "\n";
+    // }
+
+    for (int i = 1; i <= rows; i++)
     {
-        j = 1;
-        do
+        for (int j = 1; j <= i; j++)
         {
-            if ((i + j) % 4 == 0 || (i == 2 && j % 4 == 0))
+            if (j == 1 || j == i)
             {
                 cout << "*";
             }
@@ -894,11 +1230,54 @@ int main()
             {
                 cout << " ";
             }
-            j++;
-        } while (j <= columns * 3);
+        }
+        for (int k = 1; k <= 2 * rows - 2 * i; k++)
+        {
+            cout << " ";
+        }
+        for (int l = 1; l <= i; l++)
+        {
+            if (l == 1 || l == i)
+            {
+                cout << "*";
+            }
+            else
+            {
+                cout << " ";
+            }
+        }
         cout << "\n";
-        i++;
-    } while (i <= 3);
+    }
+    for (int i = rows; i >= 1; i--)
+    {
+        for (int j = 1; j <= i; j++)
+        {
+            if (j == 1 || j == i)
+            {
+                cout << "*";
+            }
+            else
+            {
+                cout << " ";
+            }
+        }
+        for (int k = 1; k <= 2 * rows - 2 * i; k++)
+        {
+            cout << " ";
+        }
+        for (int l = 1; l <= i; l++)
+        {
+            if (l == 1 || l == i)
+            {
+                cout << "*";
+            }
+            else
+            {
+                cout << " ";
+            }
+        }
+        cout << "\n";
+    }
 
     return 0;
 }
