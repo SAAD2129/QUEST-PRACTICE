@@ -15,14 +15,11 @@ int main()
     double second;
     int choice;
     int quantity;
-    
 
-    while (choice !=0)
+    while (choice != 0)
     {
-        cout << "\n1.milestokms\n2.meterstokms\n3.inchestofoot\n4.inchestometers\n5.cmstometers\n6.milestometers      ";
+        cout << "\n1.milestokms\n2.meterstokms\n3.inchestofoot\n4.inchestometers\n5.cmstometers\n6.milestometers \nEnter Q to exit the Program     ";
         cin >> choice;
-
-        /* code */ cout << "Enter Q to exit the Program \n";
 
         switch (choice)
         {
@@ -70,5 +67,6 @@ int main()
         }
     }
     cout << "Quiting the Program..... ";
+
     return 0;
 }

@@ -14,7 +14,7 @@ int main()
     cout << "USING FOR LOOP\n";
     for (int i = 1; i <= 10; i++)
     {
-        cout << num << " X " << i << "=" << num * i << endl;
+        cout << num << " X " << i << " = " << num * i << endl;
     }
 
     // USING WHILE LOOP
@@ -22,7 +22,7 @@ int main()
     while (i <= 10)
     {
 
-        cout << num << " X " << i << "=" << num * i << endl;
+        cout << num << " X " << i << " = " << num * i << endl;
         i++;
     }
     // USING DO WHILE LOOP
@@ -31,7 +31,7 @@ int main()
     do
     {
 
-        cout << num << " X " << i << "=" << num * i << endl;
+        cout << num << " X " << i << " = "  << num * i << endl;
         i++;
     } while (i <= 10);
 

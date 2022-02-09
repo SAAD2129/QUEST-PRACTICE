@@ -1175,7 +1175,7 @@ int main()
     // }
     // *        *
     // **      **
-    // ***    ***
+    // ***    *** actually i love this pattern ❤❤❤👍
     // ****  ****
     // **********
     // **********
@@ -1217,10 +1217,57 @@ int main()
     //     }
     //     cout << "\n";
     // }
+    // while (i <= rows)
+    // {
+    //     j = 1;
+    //     while (j <= i)
+    //     {
+    //         cout << "*";
+    //         j++;
+    //     }
+    //     j = 1;
+    //     while (j <= 2 * rows - 2 * i)
+    //     {
+    //         cout << " ";
+    //         j++;
+    //     }
+    //     j = 1;
+    //     while (j <= i)
+    //     {
+    //         cout << "*";
+    //         j++;
+    //     }
+    //     cout << "\n";
+    //     i++;
+    // }
+    // while (i >= 1)
+    // {
+    //     j = 1;
+    //     while (j <= i)
+    //     {
+    //         cout << "*";
+    //         j++;
+    //     }
+    //     j = 1;
+    //     while (j <= 2 * rows - 2 * i)
+    //     {
+    //         cout << " ";
+    //         j++;
+    //     }
+    //     j = 1;
+    //     while (j <= i)
+    //     {
+    //         cout << "*";
+    //         j++;
+    //     }
+    //     cout << "\n";
+    //     i--;
+    // }
+
     // *        *
-    // **      **
+    // **      ** very hard for me 🤣🤣
     // * *    * *
-    // *  *  *  *this using all loops 
+    // *  *  *  *this using all loops
     // *   **   *
     // *   **   *
     // *  *  *  *
@@ -1287,6 +1334,71 @@ int main()
     //     }
     //     cout << "\n";
     // }
+
+    // for (int i = 1; i <= rows + 1; i++)
+    // {
+    //     for (int j = 1; j <= i; j++)
+    //     {
+    //         cout << "*";
+    //     }
+    //     cout << "\n";
+    // }
+    // for (int i = 1; i <= rows + 1; i++)
+    // {
+    //     for (int j = 1; j <= rows - i + 1; j++)
+    //     {
+    //         cout << "*";
+    //     }
+    //     cout << "\n";
+    // }
+    // WHILE LOOP
+    while (i <= rows + 1)
+    {
+        j = 1;
+        while (j <= i)
+        {
+            cout << "*";
+            j++;
+        }
+        cout << "\n";
+        i++;
+    }
+    i=1;
+    while (i <= rows)
+    {
+        j = 1;
+        while (j <= rows + 1 - i)
+        {
+            cout << "*";
+            j++;
+        }
+        cout << "\n";
+        i++;
+    }
+    // DO WHILE
+    // do
+    // {
+    //     j = 1;
+    //     do
+    //     {
+    //         cout << "*";
+    //         j++;
+    //     } while (j <= i);
+    //     i++;
+    //     cout << "\n";
+    // } while (i <= rows + 1);
+    // i = 1;
+    // do
+    // {
+    //     j = 1;
+    //     do
+    //     {
+    //         cout << "*";
+    //         j++;
+    //     } while (j <= rows + 1 - i);
+    //     i++;
+    //     cout << "\n";
+    // } while (i <= rows );
 
     return 0;
 }
