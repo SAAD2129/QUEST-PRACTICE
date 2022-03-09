@@ -10,53 +10,53 @@ int main()
     3.DISCUSS THE CONTINUE STATMENT OF C++
     */
     //     USING WHILE
-    //     double A, l, h, r, b, s;
-    //     float PI = 3.14;
-    //     int choice;
-    //     char choice1 = 'y';
+        double A, l, h, r, b, s;
+        float PI = 3.14;
+        int choice;
+        char choice1 = 'y';
 
-    //     while (choice1 == 'y')
-    //     {
-    //         cout << "1.Area of Circle \n2.Area of Triangle \n3.Area of Square \n4.Area of Rectangle\n";
-    //         cin >> choice;
-    //         switch (choice)
-    //         {
-    //         case 1:
-    //             cout << "\nEnter the value of Radius  ";
-    //             cin >> r;
-    //             A = PI * r * r;
-    //             cout << "\nThe Area of Circle is " << A;
-    //             break;
-    //         case 2:
-    //             cout << "\nEnter the value of Base  ";
-    //             cin >> b;
-    //             cout << "\nEnter the value of hypotenuse ";
-    //             cin >> h;
-    //             A = 0.5 * h * b;
-    //             cout << "\nThe Area of Triangle is " << A;
-    //             break;
-    //         case 3:
-    //             cout << "\nEnter the value of side  ";
-    //             cin >> s;
-    //             A = s * s;
-    //             cout << "\nThe Area of Square is " << A;
-    //             break;
-    //         case 4:
-    //             cout << "\nEnter the value of length  ";
-    //             cin >> l;
-    //             cout << "\nEnter the value of height  ";
-    //             cin >> h;
-    //             A = l * h;
-    //             cout << "\nThe Area of Rectangle is " << A;
-    //             break;
+        while (choice1 == 'y')
+        {
+            cout << "1.Area of Circle \n2.Area of Triangle \n3.Area of Square \n4.Area of Rectangle\n";
+            cin >> choice;
+            switch (choice)
+            {
+            case 1:
+                cout << "\nEnter the value of Radius  ";
+                cin >> r;
+                A = PI * r * r;
+                cout << "\nThe Area of Circle is " << A;
+                break;
+            case 2:
+                cout << "\nEnter the value of Base  ";
+                cin >> b;
+                cout << "\nEnter the value of hypotenuse ";
+                cin >> h;
+                A = 0.5 * h * b;
+                cout << "\nThe Area of Triangle is " << A;
+                break;
+            case 3:
+                cout << "\nEnter the value of side  ";
+                cin >> s;
+                A = s * s;
+                cout << "\nThe Area of Square is " << A;
+                break;
+            case 4:
+                cout << "\nEnter the value of length  ";
+                cin >> l;
+                cout << "\nEnter the value of height  ";
+                cin >> h;
+                A = l * h;
+                cout << "\nThe Area of Rectangle is " << A;
+                break;
 
-    //         default:
-    //             cout << "\nINVALID CHOICE ";
-    //             break;
-    //         }
-    //         cout << "\nEnter y to continue  ";
-    //         cin >> choice1;
-    //     }
+            default:
+                cout << "\nINVALID CHOICE ";
+                break;
+            }
+            cout << "\nEnter y to continue  ";
+            cin >> choice1;
+        }
 
     //     USING DO WHILE
     //     long double  A, l, h, r, b, s;
